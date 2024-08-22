@@ -21,6 +21,19 @@ No requirements.
 
 No modules.
 
+## Comandos úteis
+
+```
+terraform fmt --recursive
+
+terraform init -backend-config=environment/dev/backend.tfvars
+
+terraform plan -var-file=environment/dev/terraform.tfvars
+
+terraform apply -var-file=environment/dev/terraform.tfvars
+
+```
+
 ## Resources
 
 | Name | Type |
